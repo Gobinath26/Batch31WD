@@ -29,18 +29,18 @@ const scores = [
     }
   ];
   //-------------------------Task-1------------------------------------------
-    // const getmark =scores.map((score)=>score.marks);
-    // console.log(getmark);
-    // const total = getmark.reduce((sum,curr)=>sum+curr,0);
-    //  console.log(total);
-    //  const average = total/getmark.length;
-    //  console.log(average);
+    const getmark =scores.map((score)=>score.marks);
+    console.log(getmark);
+    const total = getmark.reduce((sum,curr)=>sum+curr,0);
+     console.log(total);
+     const average = total/getmark.length;
+     console.log(average);
 
   //-------------------------Task-2------------------------------------------
-  // const topmark = scores.filter((score)=>score.marks>90);
-  // console.log(topmark);
-  // const toppername = topmark.map((score)=>score.name);
-  // console.log(toppername);
+  const topmark = scores.filter((score)=>score.marks>90);
+  console.log(topmark);
+  const toppername = topmark.map((score)=>score.name);
+  console.log(toppername);
 
             //---------Another way---------------
 
